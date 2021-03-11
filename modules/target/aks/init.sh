@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #_CMDS az
 #_PARAMS clusterName resourceGroup
 

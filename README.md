@@ -17,15 +17,12 @@ Supporting technologies and libraries:
 - Stuff
 - Things
 
-<!-- Note! Change benc-uk/project-starter for the real repo!! -->
-<!-- See https://shields.io/ for more -->
-
-![](https://img.shields.io/github/license/benc-uk/project-starter)
-![](https://img.shields.io/github/last-commit/benc-uk/project-starter)
-![](https://img.shields.io/github/release/benc-uk/project-starter)
-![](https://img.shields.io/github/checks-status/benc-uk/project-starter/main)
-![](https://img.shields.io/github/workflow/status/benc-uk/project-starter/CI%20Build?label=ci-build)
-![](https://img.shields.io/github/workflow/status/benc-uk/project-starter/Release%20Assets?label=release)
+![](https://img.shields.io/github/license/benc-uk/runr)
+![](https://img.shields.io/github/last-commit/benc-uk/runr)
+![](https://img.shields.io/github/release/benc-uk/runr)
+![](https://img.shields.io/github/checks-status/benc-uk/runr/main)
+![](https://img.shields.io/github/workflow/status/benc-uk/runr/CI%20Build?label=ci-build)
+![](https://img.shields.io/github/workflow/status/benc-uk/runr/Release%20Assets?label=release)
 
 # Table Of Contents
 
