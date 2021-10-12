@@ -1,0 +1,4 @@
+actions:
+  init:
+    requiredParams: [chartName, releaseName]
+    requiredCmds: [helm]

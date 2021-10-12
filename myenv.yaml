@@ -1,14 +1,29 @@
 name: sample
-plugin: azure
+module: azure
 params:
-  subscription: 123
-  tenant: 213
-  servicePrincipal: 5654
+  mode: servicePrincipal
+  tenant: 72f988bf-86f1-41af-91ab-2d7cd011db47
+  clientIds: 5654
+  clientSecret: 5654
 
 targets:
-  foo:
-    plugin: aks
+  my-cluster:
+    module: aks
     params:
       clusterName: benc
       resourceGroup: aks
-      kubeContext: cxvcxvxvx
+      kubeConfig: /tmp/foo1.config
+  another-aks:
+    module: aks
+    params:
+      clusterName: benc
+      resourceGroup: aks
+      kubeConfig: /tmp/foo2.config
+
+apps:
+  fooapp:
+    target: my-cluster
+    module: helm
+    params:
+      chartName: blah
+      releaseName: blah

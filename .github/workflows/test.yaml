@@ -1,0 +1,14 @@
+name: test
+
+on: page_build
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: 'deliverybot/helm@master'
+        with:
+          release: 'nginx'
+          namespace: 'default'
+          chart: 'bitnami/redis'

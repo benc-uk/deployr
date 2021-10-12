@@ -1,0 +1,4 @@
+actions:
+  init:
+    requiredParams: [clusterName, resourceGroup, kubeConfig]
+    requiredCmds: [az]

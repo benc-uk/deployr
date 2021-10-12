@@ -1,0 +1,4 @@
+actions:
+  init:
+    requiredParams: [mode]
+    requiredCmds: [az]
